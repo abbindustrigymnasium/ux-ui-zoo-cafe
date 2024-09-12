@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-md">
-    <div class="text-h6 q-mb-md">Cakes</div>
+    <div class="text-h6 q-mb-md text-blue-500">Cakes</div>
     <div class="row q-gutter-md">
       <q-card clickable @click="goToDetails(cake.id)" v-for="cake in cakes" :key="cake.id" class="my-card">
         <q-img :src="cake.image">
