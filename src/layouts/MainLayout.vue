@@ -14,9 +14,9 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item to="/cakes">
+        <q-item to="/order">
           <q-item-section>
-            Bakelser
+            Order
           </q-item-section>
         </q-item>
         <q-item to="/staff">
