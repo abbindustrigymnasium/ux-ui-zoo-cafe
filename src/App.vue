@@ -10,7 +10,6 @@
   }
   
   
-
   body{
     background-color: #FEF8E5;
   }
@@ -18,6 +17,7 @@
 <template>
   <router-view />
 </template>
+
 
 <script setup>
 defineOptions({
