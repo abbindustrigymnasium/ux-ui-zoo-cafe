@@ -1,3 +1,5 @@
+import MainPage from 'src/pages/MainPage.vue'
+
 const routes = [
   {
     path: '/',
@@ -5,11 +7,12 @@ const routes = [
     children: [
       {
         path: '',
-        redirect: 'cakes'
+        redirect: 'main'
       },
       { path: 'cakes', component: () => import('pages/CakesPage.vue') },
       { path: 'cake/:id', component: () => import('pages/CakeDetailsPage.vue') },
-      { path: 'staff', component: () => import('pages/StaffPage.vue') }
+      { path: 'staff', component: () => import('pages/StaffPage.vue') },
+      { path: 'main', component: ()=> import ('pages/MainPage.vue') }
     ]
   },
 
