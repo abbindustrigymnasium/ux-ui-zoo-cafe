@@ -4,7 +4,7 @@
       <q-toolbar class="bg-green-600">
 
         <q-toolbar-title class="text-black text-3xl">
-          ZOO CAFE
+          <a @click="goTo('main')">ZOO CAFE</a>
         </q-toolbar-title>
 
         <div><p class="flex text-l text-black text-xl">
@@ -23,9 +23,9 @@
 
       <div class="flex justify-center gap-12 bg-green-600">
       
-          <a class="text-black underline text-xl"  href="/staff#/staff" >CONTACT US</a>
+          <a class="text-black underline text-xl" @click="goTo('staff')" >CONTACT US</a>
 
-          <a class="text-black underline text-xl" href="/cakes#/cakes">SEE MENU</a> 
+          <a class="text-black underline text-xl" @click="goTo('cakes')">SEE MENU</a> 
           
           <a class="text-black underline text-xl" @click="scrollToBottom">FIND US</a> 
 
@@ -73,10 +73,18 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 defineOptions({
   name: 'MainLayout'
 })
+
+function goTo(path)
+{
+  router.push(`/${path}`)
+}
 
 
 
@@ -84,6 +92,11 @@ const leftDrawerOpen = ref(false)
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value
+}
+
+function scrollToBottom()
+{
+  window.scrollTo(0, document.body.scrollHeight)
 }
 
 
