@@ -12,6 +12,7 @@ const routes = [
       { path: 'cakes', component: () => import('pages/CakesPage.vue') },
       { path: 'cake/:id', component: () => import('pages/CakeDetailsPage.vue') },
       { path: 'staff', component: () => import('pages/StaffPage.vue') },
+      { path: 'order', component: () => import('pages/orderMenuPage.vue') }
       { path: 'main', component: ()=> import ('pages/MainPage.vue') }
     ]
   },
