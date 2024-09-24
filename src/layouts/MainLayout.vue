@@ -50,20 +50,7 @@
           
         </div>
     </q-header>
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-list>
-        <q-item to="/order">
-          <q-item-section>
-            Order
-          </q-item-section>
-        </q-item>
-        <q-item to="/staff">
-          <q-item-section>
-            Personal
-          </q-item-section>
-        </q-item>
-      </q-list>
-    </q-drawer>
+
 
     <q-page-container>
       <router-view />
@@ -85,6 +72,7 @@ const leftDrawerOpen = ref(false)
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }
-
-
+function scrollToBottom(){
+window.scrollTo(0, document.body.scrollHeight);
+}
 </script>
