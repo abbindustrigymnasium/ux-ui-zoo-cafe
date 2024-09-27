@@ -1,9 +1,9 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" class="bebas-neue-regular">
     <q-header elevated>
-      <q-toolbar class="bg-green-600">
+      <q-toolbar class="bg-main-green">
 
-        <q-toolbar-title class="text-black text-3xl">
+        <q-toolbar-title class="text-black text-4xl">
           <a @click="goTo('main')">ZOO CAFE</a>
         </q-toolbar-title>
 
@@ -21,7 +21,7 @@
 
       </q-toolbar>
 
-      <div class="flex justify-center gap-12 bg-green-600">
+      <div class="flex justify-center gap-12 bg-main-green">
       
           <a class="text-black underline text-xl" @click="goTo('staff')" >CONTACT US</a>
 
@@ -88,3 +88,7 @@ function scrollToBottom()
 
 
 </script>
+
+<style>
+
+</style>

@@ -1,16 +1,17 @@
 <template>
 
 <q-page>
-    <div>
-<img src="Images\image.png" alt="ehwheehu">
-
-<div class="absolute inset-0 flex items-center justify-center text-2xl text-white">A coffee break in the animal kingdom!
-Welcome to Zoo Cafe, where fika meets the flavors of the savannah</div>
+<div>
+    <img src="Images\image.png" alt="ehwheehu">
+    <div class="absolute inset-0 flex items-center justify-center text-2xl text-white">
+        <h1 class="text-[4rem]">A coffee break in the animal kingdom!</h1> <!--FIXME: Placera texten i mitten av bilden-->
+        <p class="text-4xl" >Welcome to Zoo Cafe, where fika meets the flavors of the savannah</p>
+    </div>
 </div>
 </q-page>
 
 <body>
-        <div class="background-color: bg-green-600">
+        <div class="background-color: bg-main-green">
             <p class="text-4xl mb-4">ABOUT US</p>
             <p class="text-2xl mt-4:">HOME PAGE</p>
             <p class="mt-3 text-2xl">FAQ</p>
