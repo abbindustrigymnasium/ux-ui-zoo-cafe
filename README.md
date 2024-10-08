@@ -28,7 +28,9 @@ quasar build
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
 
 ## Användning
+[Öppna Figma Projektet](https://www.figma.com/design/NADkXFwnWQ32WjBYahOURQ/Caf?node-id=0-1&t=qAyx1HmZI5hxhQCa-1)
 
+[Länk till Stilguide](./Stilguide.md)
 
 ## Support
 Kontakta gustav.strom@hitachigymnasiet.se för support
