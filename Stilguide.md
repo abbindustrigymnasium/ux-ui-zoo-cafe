@@ -8,11 +8,13 @@
  text som består av minst en mening Bebas neue 16-18px 
 
 ## Färgschema 
-60% av en beige(FEFAEC) denna färg används tillbakrunder på sidan eller bilder
+55% av en beige(FEFAEC) denna färg används tillbakrunder på sidan eller bilder
 
 30% av grön(73A76E) denna används till headers och footers 
 
 10% av svart(000000) denna används till alla texter och ikoner utom trademarken
+
+5% av vit(FFFFFF) denna används till hero text, trademark och bakgrund till ordermenu kort
 
 ## Layout
 Alla sidor ska innehålla samma header, mainpagen måste innehålla en footer på alla andra sidor är det valbart
