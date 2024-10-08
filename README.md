@@ -56,15 +56,5 @@ Projektet är inte färdigt och ej under aktiv utveckling
 Det finns hittills inga kända buggar
 
 ## Filmanifest
-Lista på filer enligt mappstrukturen. Ex:
+![image](https://github.com/user-attachments/assets/28767bbe-e241-47f5-94ac-0e24a3a8743a)
 
-Mapp 1
-  Fil1.py
-  Fil2.py
-  Fil3.cpp
-Mapp 2
-  Fil4.py
-  Mapp 4
-    Fil5.m
-Mapp 3
-  Fil6.js
