@@ -28,9 +28,6 @@ quasar build
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
 
 ## Användning
-[Öppna Figma Projektet](https://www.figma.com/design/NADkXFwnWQ32WjBYahOURQ/Caf?node-id=0-1&t=qAyx1HmZI5hxhQCa-1)
-
-[Länk till Stilguide](./Stilguide.md)
 
 ## Support
 Kontakta gustav.strom@hitachigymnasiet.se för support
@@ -58,4 +55,9 @@ Det finns hittills inga kända buggar
 
 ## Filmanifest
 ![image](https://github.com/user-attachments/assets/28767bbe-e241-47f5-94ac-0e24a3a8743a)
+
+## Design
+[Öppna Figma Projektet](https://www.figma.com/design/NADkXFwnWQ32WjBYahOURQ/Caf?node-id=0-1&t=qAyx1HmZI5hxhQCa-1)
+
+[Länk till Stilguide](./Stilguide.md)
 
