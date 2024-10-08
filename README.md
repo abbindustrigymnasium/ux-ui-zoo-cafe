@@ -47,8 +47,7 @@ Adrian Damianovici
 Jakob Geffen
 
 ## Licens
-Den här koden är öppen för fritt använande. Om koden används som grund för en publikation ber författaren om erkännande i sagd publikation
-
+Apache 2.0
 ## Projektstatus
 Projektet är inte färdigt och ej under aktiv utveckling
 
