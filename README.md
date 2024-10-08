@@ -41,7 +41,9 @@ Förbättra hemsidan, till exempel genom att fixa vår menu page och få websida
 
 ## Författare och erkännande
 Gustav Ström
+
 Adrian Damianovici
+
 Jakob Geffen
 
 ## Licens
