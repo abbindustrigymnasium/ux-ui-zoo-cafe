@@ -28,7 +28,14 @@ quasar build
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
 
 ## Användning
-
+För att köra hemsidan kör 
+```bash
+npm run dev
+```
+och kör detta i Database-Json
+```bash
+npm run start-server
+```
 ## Support
 Kontakta gustav.strom@hitachigymnasiet.se för support
 
