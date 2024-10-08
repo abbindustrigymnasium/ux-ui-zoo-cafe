@@ -1,35 +1,23 @@
 <template>
-    <q-page class="q-pa-md">
-        <div class="text-h6 q-mb-md">Personal</div>
-        <div class=" q-gutter-md">
-            <q-card
-                class="my-card"
-                v-for="person in staff"
-                :key="person.id"
-                :class="{ 'ml-auto': person.id === specialId }"
-            >             
-               <q-img :src="person.avatar">
-                    <div class="absolute-bottom text-h6">
-                        {{ person.name }}
-                    </div>
-                </q-img>
 
-                <q-card-section>
-                    <q-item-label>{{ person.email }}</q-item-label>
-                    <q-item-label>{{ person.phone }}</q-item-label>
-                    <q-item-label>{{ person.role }}</q-item-label>
-                </q-card-section>
-            </q-card>
-        </div>
-    </q-page>
-    <body>
-        <div class="background-color: bg-green-600">
+<q-page>
+<div>
+    <img src="Images\image.png" alt="ehwheehu">
+    <div class="absolute inset-0 flex items-center justify-center text-2xl text-white">
+        <h1 class="text-[4rem]">A coffee break in the animal kingdom!</h1> <!--FIXME: Placera texten i mitten av bilden-->
+        <p class="text-4xl" >Welcome to Zoo Cafe, where fika meets the flavors of the savannah</p>
+    </div>
+</div>
+</q-page>
+
+<body>
+        <div class="background-color: bg-main-green">
             <p class="text-4xl mb-4">ABOUT US</p>
             <p class="text-2xl mt-4:">HOME PAGE</p>
             <p class="mt-3 text-2xl">FAQ</p>
             <p class="text-2xl mt-3">HISTORY</p>
             <div class="flex justify-center">
-            <p class="flex text-3xl"><svg width="30" height="36" viewBox="0 0 36 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <p id="findUs"class="flex text-3xl"><svg width="30" height="36" viewBox="0 0 36 49" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.0002 48.3616C17.4169 48.3616 16.9169 48.2006 16.5002 47.8786C16.0836 47.5567 15.7711 47.1341 15.5627 46.6109C14.7711 44.357 13.7711 42.2441 12.5627 40.272C11.3961 38.2999 9.75024 35.9857 7.62525 33.3294C5.50025 30.6731 3.77108 28.1375 2.43774 25.7227C1.14608 23.3079 0.500244 20.39 0.500244 16.969C0.500244 12.2601 2.18774 8.27568 5.56274 5.01567C8.97941 1.71543 13.1252 0.0653076 18.0002 0.0653076C22.8752 0.0653076 27.0002 1.71543 30.3752 5.01567C33.7919 8.27568 35.5002 12.2601 35.5002 16.969C35.5002 20.6315 34.7711 23.6902 33.3127 26.1453C31.8961 28.5601 30.2502 30.9548 28.3752 33.3294C26.1252 36.2272 24.4169 38.642 23.2502 40.5738C22.1252 42.4654 21.1877 44.4778 20.4377 46.6109C20.2294 47.1743 19.8961 47.617 19.4377 47.939C19.0211 48.2207 18.5419 48.3616 18.0002 48.3616ZM18.0002 39.7286C18.7086 38.3602 19.5002 37.012 20.3752 35.6838C21.2919 34.3557 22.6252 32.5848 24.3752 30.3712C26.1669 28.1174 27.6252 26.0447 28.7502 24.1531C29.9169 22.2212 30.5002 19.8265 30.5002 16.969C30.5002 13.6285 29.2711 10.7911 26.8127 8.45679C24.3961 6.08222 21.4586 4.89494 18.0002 4.89494C14.5419 4.89494 11.5836 6.08222 9.12525 8.45679C6.70858 10.7911 5.50025 13.6285 5.50025 16.969C5.50025 19.8265 6.06275 22.2212 7.18774 24.1531C8.35441 26.0447 9.83358 28.1174 11.6252 30.3712C13.3752 32.5848 14.6877 34.3557 15.5627 35.6838C16.4794 37.012 17.2919 38.3602 18.0002 39.7286ZM18.0002 23.006C19.7502 23.006 21.2294 22.4225 22.4377 21.2553C23.6461 20.0881 24.2502 18.6594 24.2502 16.969C24.2502 15.2786 23.6461 13.8499 22.4377 12.6827C21.2294 11.5156 19.7502 10.932 18.0002 10.932C16.2502 10.932 14.7711 11.5156 13.5627 12.6827C12.3544 13.8499 11.7502 15.2786 11.7502 16.969C11.7502 18.6594 12.3544 20.0881 13.5627 21.2553C14.7711 22.4225 16.2502 23.006 18.0002 23.006Z" fill="black"/>
 </svg>
 Sigmagatan 57
@@ -47,24 +35,9 @@ Sigmagatan 57
     </body>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-import { api } from 'src/boot/axios'
-import { onMounted } from 'vue';
 
-const staff = ref([])
 
-const specialId = 2
 
-onMounted(async () => {
-    const response = await api.get('/staff')
-    staff.value = response.data
-    console.log(staff.value)
-})
-</script>
-<style scoped>
-.my-card {
-    width: 100%;
-    max-width: 300px;
-}
-</style>
+
+<script>
+console.log("hedhe")</script>
